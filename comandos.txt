@@ -18,5 +18,9 @@ git branch -d [nombreRama]---> elimina una rama
 git push origin master---> sube al servidor la rama master del local
 git push origin :[nombreRama]---> borra la rama del servidor
 
+git
+git
+git
+git
 
 git
