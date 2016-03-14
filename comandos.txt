@@ -1,0 +1,22 @@
+git init ---> inicia el repositorio git
+git add ---> anade un archivo o un directorio al repositorio
+git rm ---> borra un archivo
+git mv origen destino ---> mueve un archivo
+git status ----> presenta el estado actual del arbol de trabajo en local y la carpeta
+git diff---> muestra la diferencia del local y el staged
+git diff [branch1][branch2]---> muestra la diferencia de dos ramas
+git log ---> muestra el historial del commit
+git log --oneline---> muestra cada commit en una linea
+git reset HEAD [archivo]---> para restaurar un archivo
+git reset -- hard [codigo]---> volvemos al commit indicado y borratodo lo demas
+git branch---> para saber las ramas del repositorio
+git branch [nombreRama]---> para crear una rama
+git merge [nombreRama]---> une con una rama
+git checkout [nombreRama]---> cambia de rama
+git checkout -b [nombreRama]---> crea una rama y nos posiciona en ella
+git branch -d [nombreRama]---> elimina una rama
+git push origin master---> sube al servidor la rama master del local
+git push origin :[nombreRama]---> borra la rama del servidor
+
+
+git
